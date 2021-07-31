@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">SmartGlovesApp1</string>
     <string name="login_name">Smart Gloves</string>
+    <string name="signA">Sign In to Continue</string>
+    <string name="signB">Sign In</string>
     <string name="email">Email</string>
     <string name="pass">Password</string>
+
 </resources>
