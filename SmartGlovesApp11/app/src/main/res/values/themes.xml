@@ -14,9 +14,10 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="fontStyleEmail">
+    <style name="fontStyleLogin">
         <item name="fontFamily">@font/rammettooneregular</item>
-        <item name="android:textSize">24sp</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:textColor">@color/teal</item>
     </style>
     <style name="fontStyleSignInA">
         <item name="fontFamily">@font/robotoregular</item>
