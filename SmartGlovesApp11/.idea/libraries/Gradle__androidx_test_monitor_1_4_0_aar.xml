@@ -1,9 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.test:monitor:1.4.0@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/78001c2b2d336b781e2dcf5457f8733a/monitor-1.4.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/78001c2b2d336b781e2dcf5457f8733a/monitor-1.4.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/78001c2b2d336b781e2dcf5457f8733a/monitor-1.4.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/3477b661d9a490a465892ed04a01f344/monitor-1.4.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/2fece9c4058947d208a1402d311b62ab/monitor-1.4.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/2fece9c4058947d208a1402d311b62ab/monitor-1.4.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/2fece9c4058947d208a1402d311b62ab/monitor-1.4.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/modules-2/files-2.1/androidx.test/monitor/1.4.0/2770e38fa6d39242c2fa2e9d2ca3275b1d9debd8/monitor-1.4.0-javadoc.jar!/" />

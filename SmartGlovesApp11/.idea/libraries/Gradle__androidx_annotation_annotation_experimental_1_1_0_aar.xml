@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.annotation:annotation-experimental:1.1.0@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/809b0c675b60dda9ebd3bc17e85b8bec/jetified-annotation-experimental-1.1.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/809b0c675b60dda9ebd3bc17e85b8bec/jetified-annotation-experimental-1.1.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/809b0c675b60dda9ebd3bc17e85b8bec/jetified-annotation-experimental-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/1e0ece2a2397b3c4008a83efa20a8cdf/jetified-annotation-experimental-1.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/1e0ece2a2397b3c4008a83efa20a8cdf/jetified-annotation-experimental-1.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/1e0ece2a2397b3c4008a83efa20a8cdf/jetified-annotation-experimental-1.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

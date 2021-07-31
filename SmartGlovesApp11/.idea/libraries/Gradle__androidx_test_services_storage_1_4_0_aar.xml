@@ -1,9 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.test.services:storage:1.4.0@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/d441fc8fe95c918571ba76310c0c1f2c/jetified-storage-1.4.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/d441fc8fe95c918571ba76310c0c1f2c/jetified-storage-1.4.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/d441fc8fe95c918571ba76310c0c1f2c/jetified-storage-1.4.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/658699798e247b84e7f1749bf84bdfc2/jetified-storage-1.4.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/4760e3b42d5d7332357f075a793688ca/jetified-storage-1.4.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/4760e3b42d5d7332357f075a793688ca/jetified-storage-1.4.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../Android Developer/UserGithub/caches/transforms-2/files-2.1/4760e3b42d5d7332357f075a793688ca/jetified-storage-1.4.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

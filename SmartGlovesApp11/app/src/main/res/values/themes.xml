@@ -16,7 +16,7 @@
 
     <style name="fontStyleLogin">
         <item name="fontFamily">@font/rammettooneregular</item>
-        <item name="android:textSize">27sp</item>
+        <item name="android:textSize">25sp</item>
         <item name="android:textColor">@color/teal</item>
     </style>
     <style name="fontStyleSignInA">

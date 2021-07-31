@@ -55,11 +55,12 @@
         android:padding="20dp"
         android:background="@drawable/outline_login"
         android:hint="@string/pass"
-        android:inputType="numberPassword"
+        android:inputType="textPassword"
         android:contextClickable="true"
         />
 
     <Button
+        android:id="@+id/button_signin"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_marginStart="30dp"
