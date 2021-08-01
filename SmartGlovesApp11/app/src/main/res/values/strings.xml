@@ -11,4 +11,12 @@
     <string name="home_bar">Home</string>
     <string name="loc_bar">Location</string>
     <string name="profile_bar">Profile</string>
+
+    //home
+    <string name="name_profile">Putri Cantika</string>
+    <string name="status">Connected</string>
+    <string name="squareA">bpm</string>
+    <string name="squareB">SpO2</string>
+    <string name="squareC">Celcius</string>
+
 </resources>
