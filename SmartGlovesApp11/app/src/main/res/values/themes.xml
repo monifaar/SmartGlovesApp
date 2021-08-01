@@ -40,7 +40,7 @@
         <item name="android:textColor">@color/grey</item>
     </style>
     <style name="fontStyleNameProfile">
-        <item name="fontFamily">@font/robotoregular</item>
+        <item name="fontFamily">@font/robotomedium</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/dark_white</item>
     </style>
