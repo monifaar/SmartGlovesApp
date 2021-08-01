@@ -47,6 +47,7 @@
         android:inputType="textEmailAddress"
         android:contextClickable="true"
         />
+
     <EditText
         android:layout_width="350dp"
         android:layout_height="60dp"
@@ -58,6 +59,19 @@
         android:inputType="textPassword"
         android:contextClickable="true"
         />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:progress="20"/>
+    </FrameLayout>
 
     <Button
         android:id="@+id/button_signin"

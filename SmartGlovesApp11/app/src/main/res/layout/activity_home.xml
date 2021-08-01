@@ -8,22 +8,25 @@
     android:orientation="vertical"
     tools:context=".home.HomeActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent">
+<!--    <com.google.android.material.appbar.AppBarLayout-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="match_parent">-->
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/teal"
-            app:layout_scrollFlags="scroll|enterAlways"/>
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:id="@+id/toolbar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?attr/actionBarSize"-->
+<!--            android:background="@color/teal"-->
+<!--            app:layout_scrollFlags="scroll|enterAlways"/>-->
 
-    </com.google.android.material.appbar.AppBarLayout>
+<!--    </com.google.android.material.appbar.AppBarLayout>-->
 
-    <TextView
+    <View
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="300dp"
+        android:background="@color/dark_blue_grey">
+
+    </View>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation"
