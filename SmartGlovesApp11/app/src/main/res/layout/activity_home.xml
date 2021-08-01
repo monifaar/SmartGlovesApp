@@ -28,10 +28,11 @@
     </View>
 
     <RelativeLayout
+        android:id="@+id/parentRelative"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
         android:layout_marginTop="70dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
@@ -62,11 +63,50 @@
             android:layout_below="@id/name_txt"/>
 
     </RelativeLayout>
+
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="250dp"
         android:layout_marginTop="200dp">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_bpm"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="25dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/teal">
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_spo2"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_toRightOf="@id/cv_bpm"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/teal">
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_celcius"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_toRightOf="@id/cv_bpm"
+                android:layout_below="@id/cv_spo2"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/teal">
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
     </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
