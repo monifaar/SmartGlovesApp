@@ -2,9 +2,9 @@ package com.garda.smartglovesapp1.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.FrameLayout
 import androidx.fragment.app.Fragment
 import com.garda.smartglovesapp1.R
+import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class HomeActivity : AppCompatActivity() {
