@@ -1,0 +1,2 @@
+com/garda/smartglovesapp1/BuildConfig.java
+ com.garda.smartglovesapp1.BuildConfig
