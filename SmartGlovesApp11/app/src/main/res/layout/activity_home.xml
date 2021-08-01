@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/coordinatorLayout"
@@ -21,92 +21,99 @@
 
 <!--    </com.google.android.material.appbar.AppBarLayout>-->
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="350dp"
-        android:background="@color/dark_blue_grey">
-    </View>
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="350dp"-->
+<!--        android:background="@color/dark_blue_grey">-->
+<!--    </View>-->
 
-    <RelativeLayout
-        android:id="@+id/parentRelative"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginTop="70dp">
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/parentRelative"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="25dp"-->
+<!--        android:layout_marginEnd="25dp"-->
+<!--        android:layout_marginTop="70dp">-->
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/img_profile"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/ic_user"
-            />
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/img_profile"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:src="@drawable/ic_user"-->
+<!--            />-->
 
-        <TextView
-            android:id="@+id/name_txt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="10dp"
-            style="@style/fontStyleNameProfile"
-            android:text="@string/name_profile"
-            android:layout_toRightOf="@id/img_profile"/>
+<!--        <TextView-->
+<!--            android:id="@+id/name_txt"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            style="@style/fontStyleNameProfile"-->
+<!--            android:text="@string/name_profile"-->
+<!--            android:layout_toRightOf="@id/img_profile"/>-->
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginStart="10dp"
-            android:layout_toRightOf="@id/img_profile"
-            style="@style/fontStyleStatus"
-            android:text="@string/status"
-            android:layout_below="@id/name_txt"/>
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_toRightOf="@id/img_profile"-->
+<!--            style="@style/fontStyleStatus"-->
+<!--            android:text="@string/status"-->
+<!--            android:layout_below="@id/name_txt"/>-->
 
-    </RelativeLayout>
+<!--    </RelativeLayout>-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:layout_marginTop="200dp">-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/cv_bpm"-->
+<!--                android:layout_width="180dp"-->
+<!--                android:layout_height="180dp"-->
+<!--                android:layout_margin="25dp"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                app:cardBackgroundColor="@color/teal">-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/cv_spo2"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_toRightOf="@id/cv_bpm"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                app:cardBackgroundColor="@color/teal">-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/cv_celcius"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_toRightOf="@id/cv_bpm"-->
+<!--                android:layout_below="@id/cv_spo2"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                app:cardBackgroundColor="@color/teal">-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--        </RelativeLayout>-->
+<!--    </FrameLayout>-->
 
     <FrameLayout
+        android:id="@+id/content"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_marginTop="200dp">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/cv_bpm"
-                android:layout_width="180dp"
-                android:layout_height="180dp"
-                android:layout_margin="25dp"
-                app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="@color/teal">
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/cv_spo2"
-                android:layout_width="150dp"
-                android:layout_height="80dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginStart="10dp"
-                android:layout_toRightOf="@id/cv_bpm"
-                app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="@color/teal">
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/cv_celcius"
-                android:layout_width="150dp"
-                android:layout_height="80dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="10dp"
-                android:layout_toRightOf="@id/cv_bpm"
-                android:layout_below="@id/cv_spo2"
-                app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="@color/teal">
-            </androidx.cardview.widget.CardView>
-
-        </RelativeLayout>
+        android:layout_height="0dp"
+        android:layout_weight="1">
     </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -117,4 +124,4 @@
         android:background="?android:attr/windowBackground"
         app:menu="@menu/navigation_buttom" />
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>
