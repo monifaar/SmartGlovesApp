@@ -20,12 +20,12 @@
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\font_robotothin.ttf.flat",
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\font\\robotothin.ttf"
+    },
+    {
+        "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_location_on_24.xml.flat",
