@@ -6625,13 +6625,13 @@
         <item name="android:textColor">@color/light_green</item>
     </style></file><file path="E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.SmartGlovesApp1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/teal</item>
+        <item name="colorPrimaryVariant">@color/grey</item>
+        <item name="colorOnPrimary">@color/white</item>
         
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/dark_blue_grey</item>
+        <item name="colorSecondaryVariant">@color/dark_blue_grey</item>
+        <item name="colorOnSecondary">@color/white</item>
         
         <item name="android:statusBarColor" ns2:targetApi="l">?attr/colorPrimaryVariant</item>
         
