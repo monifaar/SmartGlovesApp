@@ -46,7 +46,7 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
         val navigation = findViewById<BottomNavigationView>(R.id.navigation)
         navigation.setOnNavigationItemSelectedListener(mOnNavigation)
-        val fragment = LocationFragment.newInstance()
+        val fragment = HomeFragment.newInstance()
         addFragment(fragment)
     }
 }
