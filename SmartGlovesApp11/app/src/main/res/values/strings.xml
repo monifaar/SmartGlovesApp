@@ -6,6 +6,8 @@
     <string name="signB">Sign In</string>
     <string name="email">Email</string>
     <string name="pass">Password</string>
+    <string name="noAcc">Do not have account? Register</string>
+    <string name="reg">Register Account</string>
 
     //navigation
     <string name="home_bar">Home</string>
@@ -21,5 +23,13 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_maps">Map</string>
+
+    //register
+    <string name="emailReg">Email</string>
+    <string name="passReg">Password</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="nameReg">Name</string>
+    <string name="haveAcc">Already have account? Sign In</string>
+    <string name="log">Register</string>
 
 </resources>
