@@ -1,9 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".login.register.RegisterActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:id="@+id/ic_glove"
+            android:layout_width="127dp"
+            android:layout_height="100dp"
+            android:background="@drawable/ic_glove"
+            android:layout_marginStart="20dp"
+            />
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="38dp"
+            android:text="@string/login_name"
+            style="@style/fontStyleLogin"
+            android:layout_toRightOf="@id/ic_glove"
+            android:layout_alignBottom="@id/ic_glove"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/reg"
+        style="@style/fontStyleSignInA"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/nameReg"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+        android:background="@drawable/outline_login"
+        android:hint="@string/nameReg"
+        android:inputType="textEmailAddress"
+        android:contextClickable="true"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:background="@drawable/outline_login"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:contextClickable="true"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:background="@drawable/outline_login"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        android:contextClickable="true"
+        />
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:background="@drawable/outline_login"
+        android:hint="@string/confirm"
+        android:inputType="textPassword"
+        android:contextClickable="true"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:progress="20"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button_signin"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/log"
+        android:textAllCaps="false"
+        android:background="@drawable/solid_login"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        style="@style/fontStyleStrokeB"
+        android:text="@string/haveAcc"/>
+
+
+</LinearLayout>
