@@ -11,9 +11,7 @@ class LoginHelper(context: Context) {
 //    private lateinit var database: SQLiteDatabase
 
 //    @Throws(SQLException::class)
-    fun insertUser(loginModel: LoginModel): Boolean {
-        val result = true
-        try {
+    fun insertUser(loginModel: LoginModel) {
             val db = dataBaseHelper.writableDatabase
             val values = ContentValues()
             values.put(DatabaseContract.FeedLogin.COLUMN_NAME_EMAIL, loginModel.email)
@@ -21,31 +19,31 @@ class LoginHelper(context: Context) {
 
             val newRowId = db.insert(DatabaseContract.FeedLogin.TABLE_NAME, null, values)
         }
-        catch (e:Exception) {
-            return false
-        }
-        return result
-    }
-
-    fun checkEmail(email:String):Boolean {
-        val db = dataBaseHelper.writableDatabase
-        val cursor = db.rawQuery("SELECT * FROM" + DatabaseContract.FeedLogin.TABLE_NAME + "WHERE" + DatabaseContract.FeedLogin.COLUMN_NAME_EMAIL + email, null)
-        if (cursor.count>0) {
-            return true
-        }
-        else {
-            return false
-        }
-    }
 
     fun checkEmailPass(email:String, password:String):Boolean {
         val db = dataBaseHelper.writableDatabase
-        val cursor = db.rawQuery("SELECT * FROM" + DatabaseContract.FeedLogin.TABLE_NAME + "WHERE ${email}? and ${password}?" + {email + password}, null)
-        if (cursor.count>0) {
-            return true
+        val query = "select * from DatabaseContract.FeedLogin.TABLE_NAME where email = $email and password = $password"
+        val cursor = db.rawQuery(query,null)
+        if (cursor.count<=0) {
+            cursor.close()
+            return false
         }
         else {
-            return false
+            cursor.close()
+            return true
         }
     }
 }
+
+//    fun checkEmail(email:String):Boolean {
+//        val db = dataBaseHelper.writableDatabase
+//        val cursor = db.rawQuery("SELECT * FROM" + DatabaseContract.FeedLogin.TABLE_NAME + "WHERE" + DatabaseContract.FeedLogin.COLUMN_NAME_EMAIL + "='" + email + "'", null)
+//        if (cursor.count>0) {
+//            return true
+//        }
+//        else {
+//            return false
+//        }
+//    }
+
+
