@@ -86,5 +86,13 @@
         android:background="@drawable/solid_login"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        style="@style/fontStyleStrokeB"
+        android:text="@string/noAcc"/>
+
 
 </LinearLayout>
