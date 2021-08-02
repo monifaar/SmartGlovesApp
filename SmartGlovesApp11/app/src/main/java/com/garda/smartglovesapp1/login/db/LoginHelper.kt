@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteDatabase
 class LoginHelper(context: Context) {
 
     private var dataBaseHelper: DatabaseHelper = DatabaseHelper(context)
-    private lateinit var database: SQLiteDatabase
+//    private lateinit var database: SQLiteDatabase
 
 //    @Throws(SQLException::class)
     fun insertUser(loginModel: LoginModel): Boolean {
@@ -38,4 +38,14 @@ class LoginHelper(context: Context) {
         }
     }
 
+    fun checkEmailPass(email:String, password:String):Boolean {
+        val db = dataBaseHelper.writableDatabase
+        val cursor = db.rawQuery("SELECT * FROM" + DatabaseContract.FeedLogin.TABLE_NAME + "WHERE ${email}? and ${password}?" + {email + password}, null)
+        if (cursor.count>0) {
+            return true
+        }
+        else {
+            return false
+        }
+    }
 }
