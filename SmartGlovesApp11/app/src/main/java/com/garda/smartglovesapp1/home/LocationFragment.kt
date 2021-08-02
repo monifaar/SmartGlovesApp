@@ -9,7 +9,7 @@ import com.garda.smartglovesapp1.R
 import com.google.android.gms.maps.*
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import kotlinx.android.synthetic.main.fragment_location.*
+
 
 
 class LocationFragment : Fragment(), OnMapReadyCallback {
