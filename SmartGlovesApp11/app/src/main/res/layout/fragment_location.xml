@@ -49,7 +49,6 @@
             android:layout_below="@id/name_txt"/>
 
     </RelativeLayout>
-
     <com.google.android.gms.maps.MapView
         android:layout_width="300dp"
         android:layout_height="300dp"
@@ -60,6 +59,8 @@
         map:uiRotateGestures="true"
         map:cameraTilt="30"
         map:cameraZoom="18"/>
+
+    
 
 
 </FrameLayout>

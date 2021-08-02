@@ -15,7 +15,6 @@ import kotlinx.android.synthetic.main.fragment_location.*
 class LocationFragment : Fragment(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
-//    lateinit var mapFragment: SupportMapFragment
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
