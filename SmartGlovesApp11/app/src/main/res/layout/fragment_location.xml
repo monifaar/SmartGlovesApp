@@ -48,19 +48,20 @@
             android:text="@string/status"
             android:layout_below="@id/name_txt"/>
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp">
+            <com.google.android.gms.maps.MapView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:id="@+id/mapView"
+                map:uiZoomControls="true"
+                map:uiRotateGestures="true"
+                map:cameraTilt="30"
+                map:cameraZoom="18"/>
+        </LinearLayout>
     </RelativeLayout>
-    <com.google.android.gms.maps.MapView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginStart="55dp"
-        android:id="@+id/mapView"
-        map:uiZoomControls="true"
-        map:uiRotateGestures="true"
-        map:cameraTilt="30"
-        map:cameraZoom="18"/>
-
-    
-
 
 </FrameLayout>
