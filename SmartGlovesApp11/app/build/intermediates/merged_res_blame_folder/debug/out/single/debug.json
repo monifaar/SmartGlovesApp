@@ -8,6 +8,10 @@
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_circle_black_24dp.xml.flat",
+        "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\drawable\\ic_circle_black_24dp.xml"
+    },
+    {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_user.png.flat",
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_user.png"
     },
@@ -20,12 +24,12 @@
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\font_robotothin.ttf.flat",
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\font\\robotothin.ttf"
+    },
+    {
+        "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_location_on_24.xml.flat",
@@ -104,6 +108,10 @@
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_user.png"
     },
     {
+        "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_device_thermostat_black_24dp.xml.flat",
+        "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\drawable\\ic_device_thermostat_black_24dp.xml"
+    },
+    {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
@@ -154,6 +162,10 @@
     {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_pulse.xml.flat",
+        "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\drawable\\ic_pulse.xml"
     },
     {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
