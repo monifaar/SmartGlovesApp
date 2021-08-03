@@ -11,6 +11,9 @@ import com.garda.smartglovesapp1.R
 import com.garda.smartglovesapp1.login.LoginActivity
 import com.garda.smartglovesapp1.login.db.LoginModel
 import com.garda.smartglovesapp1.login.db.RegisterHelper
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -31,6 +34,10 @@ class RegisterActivity : AppCompatActivity() {
         edtPass = findViewById(R.id.passwordReg)
         edtConfirm = findViewById(R.id.confirmPasswordReg)
         textHave = findViewById(R.id.haveAcc)
+        textHave.setOnClickListener {
+            val moveIntent = Intent(this, LoginActivity::class.java)
+            startActivity(moveIntent)
+        }
         btnRegister = findViewById(R.id.button_reg)
         btnRegister.setOnClickListener{register()}
 
@@ -46,10 +53,12 @@ class RegisterActivity : AppCompatActivity() {
         if (name.isNotEmpty() && email.isNotEmpty() && pass.isNotEmpty() && confirm.isNotEmpty())  {
             if(pass == confirm){
                 try {
-                    val register = registerHelper.insertUser(LoginModel(reg = name, email = email, password = pass))
-                    if (register > -1) {
-                        val intent = Intent(this, LoginActivity::class.java)
-                        startActivity(intent)
+                    GlobalScope.launch(Dispatchers.Main) {
+                        val register = registerHelper.insertUser(LoginModel(reg = name, email = email, password = pass))
+                        if (register > -1) {
+                            val intent = Intent(this@RegisterActivity, LoginActivity::class.java)
+                            startActivity(intent)
+                        }
                     }
                 }
                 catch (e:Exception) {
