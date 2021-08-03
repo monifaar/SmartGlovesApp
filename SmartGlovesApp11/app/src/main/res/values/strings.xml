@@ -36,5 +36,9 @@
     <string name="bpm">85 bpm</string>
     //spo2
     <string name="spo2">97%</string>
+    <string name="spo22">spO2</string>
+    //suhu
+    <string name="suhu">35</string>
+    <string name="suhu2">Celcius</string>
 
 </resources>
