@@ -110,25 +110,27 @@
                         android:id="@+id/txt_spo2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
                         android:layout_marginStart="20dp"
                         style="@style/fontStyleBpm"
                         android:text="@string/spo2"
                         />
 
-<!--                    <TextView-->
-<!--                        android:id="@+id/txt_spo2"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_marginStart="20dp"-->
-<!--                        style="@style/fontStyleBpm"-->
-<!--                        android:text="@string/spo2"-->
-<!--                        />-->
+                    <TextView
+                        android:id="@+id/txt_spo22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_below="@id/txt_spo2"
+                        style="@style/fontStyleBpmBelow"
+                        android:text="@string/spo22"
+                        />
 
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_toRightOf="@id/txt_spo2"
-                        android:layout_centerHorizontal="true"
+                        android:layout_margin="15dp"
+                        android:layout_toRightOf="@id/txt_spo22"
                         android:background="@drawable/ic_circle_black_24dp"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -143,6 +145,39 @@
                 android:layout_below="@id/cv_spo2"
                 app:cardCornerRadius="20dp"
                 app:cardBackgroundColor="@color/teal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/txt_suhu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="20dp"
+                        style="@style/fontStyleBpm"
+                        android:text="@string/suhu"
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_suhu2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_below="@id/txt_suhu"
+                        style="@style/fontStyleBpmBelow"
+                        android:text="@string/suhu2"
+                        />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="15dp"
+                        android:layout_toRightOf="@id/txt_suhu2"
+                        android:background="@drawable/ic_device_thermostat_black_24dp"/>
+                </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
         </RelativeLayout>
