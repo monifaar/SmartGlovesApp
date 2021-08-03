@@ -53,13 +53,17 @@ class RegisterActivity : AppCompatActivity() {
         if (name.isNotEmpty() && email.isNotEmpty() && pass.isNotEmpty() && confirm.isNotEmpty())  {
             if(pass == confirm){
                 try {
-                    GlobalScope.launch(Dispatchers.Main) {
-                        val register = registerHelper.insertUser(LoginModel(reg = name, email = email, password = pass))
-                        if (register > -1) {
-                            val intent = Intent(this@RegisterActivity, LoginActivity::class.java)
-                            startActivity(intent)
+
+                        if (!registerHelper.checkEmailPass(email, pass)) {
+                            val register = registerHelper.insertUser(LoginModel(reg = name, email = email, password = pass))
+                            if (register > -1) {
+                                val intent = Intent(this@RegisterActivity, LoginActivity::class.java)
+                                startActivity(intent)
+                            }
                         }
-                    }
+                        else {
+                            Toast.makeText(this, "Email is ever used", Toast.LENGTH_SHORT).show()
+                        }
                 }
                 catch (e:Exception) {
                     e.printStackTrace()
