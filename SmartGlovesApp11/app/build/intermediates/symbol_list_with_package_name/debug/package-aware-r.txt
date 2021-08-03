@@ -2279,6 +2279,9 @@ id transition_transform
 id triangle
 id txt_bpm
 id txt_spo2
+id txt_spo22
+id txt_suhu
+id txt_suhu2
 id unchecked
 id uniform
 id unlabeled
@@ -2611,11 +2614,14 @@ string search_menu_title
 string signA
 string signB
 string spo2
+string spo22
 string squareA
 string squareB
 string squareC
 string status
 string status_bar_notification_info_overflow
+string suhu
+string suhu2
 string title_activity_maps
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -3345,6 +3351,7 @@ style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
 style fontStyleBpm
+style fontStyleBpmBelow
 style fontStyleLogin
 style fontStyleNameProfile
 style fontStyleSignInA
