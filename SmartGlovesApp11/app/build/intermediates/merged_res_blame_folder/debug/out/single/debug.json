@@ -144,6 +144,10 @@
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_user.png.flat",
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_user.png"
     },

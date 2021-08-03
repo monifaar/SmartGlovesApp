@@ -7,7 +7,6 @@
     <uses-sdk
         android:minSdkVersion="21"
         android:targetSdkVersion="30" />
-
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -40,7 +39,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SmartGlovesApp1" >
-
+        <activity android:name="com.garda.smartglovesapp1.login.register.RegisterActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

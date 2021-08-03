@@ -13,8 +13,9 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
         private const val SQL_CREATE_ENTRIES =
                 "CREATE TABLE ${DatabaseContract.FeedLogin.TABLE_NAME} (" +
                         "${DatabaseContract.FeedLogin._ID} INTEGER PRIMARY KEY AUTOINCREMENT," +
-                        "${DatabaseContract.FeedLogin.COLUMN_NAME_EMAIL} TEXT NON NULL," +
-                        "${DatabaseContract.FeedLogin.COLUMN_NAME_PASSWORD} TEXT NON NULL)"
+                        "${DatabaseContract.FeedLogin.COLUMN_NAME_REG} TEXT ," +
+                        "${DatabaseContract.FeedLogin.COLUMN_NAME_EMAIL} TEXT ," +
+                        "${DatabaseContract.FeedLogin.COLUMN_NAME_PASSWORD} TEXT )"
     }
 
     override fun onCreate(db: SQLiteDatabase) {

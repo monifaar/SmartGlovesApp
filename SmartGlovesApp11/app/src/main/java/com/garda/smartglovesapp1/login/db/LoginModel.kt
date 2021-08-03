@@ -6,8 +6,9 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class LoginModel (
-    var id: Int? = 0,
-    var email: String? = "",
-    var password: String? = ""
+    var id: Int = 0,
+    var reg:String,
+    var email: String,
+    var password: String
 )
 : Parcelable

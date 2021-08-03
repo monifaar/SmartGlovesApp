@@ -8,17 +8,6 @@ import android.database.sqlite.SQLiteDatabase
 class LoginHelper(context: Context) {
 
     private var dataBaseHelper: DatabaseHelper = DatabaseHelper(context)
-//    private lateinit var database: SQLiteDatabase
-
-//    @Throws(SQLException::class)
-    fun insertUser(loginModel: LoginModel) {
-            val db = dataBaseHelper.writableDatabase
-            val values = ContentValues()
-            values.put(DatabaseContract.FeedLogin.COLUMN_NAME_EMAIL, loginModel.email)
-            values.put(DatabaseContract.FeedLogin.COLUMN_NAME_PASSWORD, loginModel.password)
-
-            val newRowId = db.insert(DatabaseContract.FeedLogin.TABLE_NAME, null, values)
-        }
 
     fun checkEmailPass(email:String, password:String):Boolean {
         val db = dataBaseHelper.writableDatabase
