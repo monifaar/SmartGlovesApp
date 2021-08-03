@@ -44,21 +44,16 @@ class LoginActivity : AppCompatActivity(){
         val pass:String = edtPassword.text.toString()
 
         if (email.isNotEmpty() && pass.isNotEmpty() )  {
-            if(true){
-                try {
-                    val login = loginHelper.checkEmailPass(email = email, password = pass)
-                    if (login) {
-                        val intent = Intent(this, HomeActivity::class.java)
-                        startActivity(intent)
-                    }
-                }
-                catch (e:Exception) {
-                    e.printStackTrace()
-                    Toast.makeText(this, e.message, Toast.LENGTH_SHORT).show()
+            try {
+                val login = loginHelper.checkEmailPass(email = email, password = pass)
+                if (login) {
+                    val intent = Intent(this, HomeActivity::class.java)
+                    startActivity(intent)
                 }
             }
-            else {
-                Toast.makeText(this, "Password is not same", Toast.LENGTH_SHORT).show()
+            catch (e:Exception) {
+                e.printStackTrace()
+                Toast.makeText(this, e.message, Toast.LENGTH_SHORT).show()
             }
         }
         else {
