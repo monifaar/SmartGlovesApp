@@ -24,7 +24,7 @@ class HomeActivity : AppCompatActivity() {
         }
 
         R.id.nav_profile -> {
-            val fragment = LocationFragment.newInstance()
+            val fragment = ProfileFragment.newInstance()
             addFragment(fragment)
             return@OnNavigationItemSelectedListener true
         }
