@@ -6,7 +6,7 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class LoginModel (
-    var id: Int = 0,
+    var id: Int = -1,
     var reg:String,
     var email: String,
     var password: String
