@@ -9,7 +9,7 @@ import com.garda.smartglovesapp1.login.db.DatabaseContract.FeedLogin.TABLE_NAME
 class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
     companion object {
         private const val DATABASE_NAME = "dbloginapp"
-        private const val DATABASE_VERSION = 1
+        private const val DATABASE_VERSION = 4
         private const val SQL_CREATE_ENTRIES =
                 "CREATE TABLE ${DatabaseContract.FeedLogin.TABLE_NAME} (" +
                         "${DatabaseContract.FeedLogin._ID} INTEGER PRIMARY KEY AUTOINCREMENT," +
