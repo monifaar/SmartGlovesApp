@@ -15,4 +15,21 @@ class RegisterHelper(context: Context) {
 
        return db.insert(DatabaseContract.FeedLogin.TABLE_NAME, null, values)
     }
+
+    fun checkEmailPass(email:String, password:String):Boolean {
+        val projecton = arrayOf(DatabaseContract.FeedLogin._ID, DatabaseContract.FeedLogin.COLUMN_NAME_EMAIL, DatabaseContract.FeedLogin.COLUMN_NAME_PASSWORD)
+
+        val db = dataBaseHelper.readableDatabase
+        val query:String = "select * from login where email = ? and password = ?"
+        var argSelection = arrayOf(email, password)
+        val cursor = db.rawQuery(query, argSelection)
+        if (cursor.count<=0) {
+            cursor.close()
+            return false
+        }
+        else {
+            cursor.close()
+            return true
+        }
+    }
 }
