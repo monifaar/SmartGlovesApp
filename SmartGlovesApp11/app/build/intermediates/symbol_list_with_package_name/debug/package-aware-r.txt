@@ -2019,6 +2019,7 @@ id floating
 id forever
 id fragment_container_view_tag
 id frame
+id frameLayout
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2162,6 +2163,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id relativeLayout
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2534,6 +2536,10 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string google_maps_key
+string graph
+string graph1
+string graph2
+string graph3
 string haveAcc
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
@@ -3354,6 +3360,8 @@ style fontStyleBpm
 style fontStyleBpmBelow
 style fontStyleLogin
 style fontStyleNameProfile
+style fontStyleOption
+style fontStyleOptionSelect
 style fontStyleSignInA
 style fontStyleSignInB
 style fontStyleStatus
