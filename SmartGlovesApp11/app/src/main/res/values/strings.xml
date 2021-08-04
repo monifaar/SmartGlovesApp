@@ -41,4 +41,10 @@
     <string name="suhu">35</string>
     <string name="suhu2">Celcius</string>
 
+    //graph
+    <string name="graph">Graph Setting</string>
+    <string name="graph1">Refresh Sensor</string>
+    <string name="graph2">Reset Graph</string>
+    <string name="graph3">Medication</string>
+
 </resources>
