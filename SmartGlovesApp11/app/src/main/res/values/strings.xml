@@ -39,7 +39,7 @@
     <string name="spo22">spO2</string>
     //suhu
     <string name="suhu">35</string>
-    <string name="suhu2">Celcius</string>
+    <string name="suhu2">celcius</string>
 
     //graph
     <string name="graph">Graph Setting</string>
