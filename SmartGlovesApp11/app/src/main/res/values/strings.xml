@@ -47,4 +47,14 @@
     <string name="graph2">Reset Graph</string>
     <string name="graph3">Medication</string>
 
+    //profile
+    <string name="profile">Settings</string>
+    <string name="profile1">Notification</string>
+    <string name="profile2">Device Setting</string>
+    <string name="profile3">Smart Gloves Setting</string>
+    <string name="profile4">Privacy</string>
+    <string name="profile5">Security</string>
+    <string name="profile6">Help</string>
+    <string name="profile7">About</string>
+
 </resources>
