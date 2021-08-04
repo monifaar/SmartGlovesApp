@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SmartGlovesApp1</string>
+    <string name="app_name">Smart Gloves</string>
     //logIn
     <string name="login_name">Smart Gloves</string>
     <string name="signA">Sign In to Continue</string>
