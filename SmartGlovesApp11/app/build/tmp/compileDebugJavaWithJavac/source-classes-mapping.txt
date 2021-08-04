@@ -1,2 +1,18 @@
+com/garda/smartglovesapp1/databinding/ActivityProfileImgBinding.java
+ com.garda.smartglovesapp1.databinding.ActivityProfileImgBinding
+com/garda/smartglovesapp1/databinding/FragmentHomeBinding.java
+ com.garda.smartglovesapp1.databinding.FragmentHomeBinding
 com/garda/smartglovesapp1/BuildConfig.java
  com.garda.smartglovesapp1.BuildConfig
+com/garda/smartglovesapp1/databinding/ActivityLoginBinding.java
+ com.garda.smartglovesapp1.databinding.ActivityLoginBinding
+com/garda/smartglovesapp1/databinding/ActivityHomeBinding.java
+ com.garda.smartglovesapp1.databinding.ActivityHomeBinding
+com/garda/smartglovesapp1/databinding/FragmentLocationBinding.java
+ com.garda.smartglovesapp1.databinding.FragmentLocationBinding
+com/garda/smartglovesapp1/databinding/FragmentProfileBinding.java
+ com.garda.smartglovesapp1.databinding.FragmentProfileBinding
+com/garda/smartglovesapp1/databinding/ActivityMapsBinding.java
+ com.garda.smartglovesapp1.databinding.ActivityMapsBinding
+com/garda/smartglovesapp1/databinding/ActivityRegisterBinding.java
+ com.garda.smartglovesapp1.databinding.ActivityRegisterBinding

@@ -39,6 +39,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SmartGlovesApp1" >
+        <activity android:name="com.garda.smartglovesapp1.profile.ProfileImgActivity" />
         <activity android:name="com.garda.smartglovesapp1.login.register.RegisterActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-46:12
+MERGED from [androidx.databinding:viewbinding:4.1.2] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\9f8cfd3eac1f76be3253c1891f484fcd\jetified-viewbinding-4.1.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.6.0] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\931064dd1dabd9855818e4ef27763d7d\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\2de5a6b17c59cfa51c3f364f5a8e2176\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\90a09e06d155f3c8b1250bdc2a9e4990\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -51,20 +52,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] E:\Andr
 MERGED from [androidx.print:print:1.0.0] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\fd8f6341ff63f8a409e7de23107a4d69\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\a69f70f89212645d1457fb0793f019f5\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\1e0ece2a2397b3c4008a83efa20a8cdf\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml
 		INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml
-		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml
-		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:2:11-69
@@ -77,7 +78,7 @@ ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\ap
 	android:name
 		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:10:22-78
 application
-ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:12:5-43:19
+ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:12:5-44:19
 MERGED from [com.google.android.material:material:1.4.0] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\2de5a6b17c59cfa51c3f364f5a8e2176\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\2de5a6b17c59cfa51c3f364f5a8e2176\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\90a09e06d155f3c8b1250bdc2a9e4990\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -110,44 +111,50 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] E:\Android 
 		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
 		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:18:9-53
+activity#com.garda.smartglovesapp1.profile.ProfileImgActivity
+ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:19:9-73
+	android:name
+		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:19:19-61
 activity#com.garda.smartglovesapp1.login.register.RegisterActivity
-ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:19:9-78
+ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:20:9-69
 	android:name
-		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:19:19-66
+		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:20:19-66
 meta-data#com.google.android.geo.API_KEY
-ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:28:9-30:55
+ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:29:9-31:55
 	android:value
-		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:30:13-52
+		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:31:13-52
 	android:name
-		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:29:13-58
+		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:30:13-58
 activity#com.garda.smartglovesapp1.MapsActivity
-ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:32:9-34:59
+ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:33:9-35:59
 	android:label
-		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:34:13-56
+		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:35:13-56
 	android:name
-		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:33:13-41
+		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:34:13-41
 activity#com.garda.smartglovesapp1.login.LoginActivity
-ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:35:9-41:20
+ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:36:9-42:20
 	android:name
-		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:35:19-54
+		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:36:19-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:36:13-40:29
+ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:37:13-41:29
 action#android.intent.action.MAIN
-ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:37:17-69
+ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:39:17-77
+ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:39:27-74
+		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:40:27-74
 activity#com.garda.smartglovesapp1.home.HomeActivity
-ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:42:9-55
+ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:43:9-55
 	android:name
-		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:42:19-52
+		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:43:19-52
 uses-sdk
 INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml
 INJECTED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.1.2] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\9f8cfd3eac1f76be3253c1891f484fcd\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.2] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\9f8cfd3eac1f76be3253c1891f484fcd\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.6.0] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\931064dd1dabd9855818e4ef27763d7d\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.6.0] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\931064dd1dabd9855818e4ef27763d7d\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.4.0] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\2de5a6b17c59cfa51c3f364f5a8e2176\material-1.4.0\AndroidManifest.xml:20:5-44

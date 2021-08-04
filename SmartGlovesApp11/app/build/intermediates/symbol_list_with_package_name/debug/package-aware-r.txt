@@ -1773,6 +1773,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_add_user
 drawable ic_circle_black_24dp
 drawable ic_clock_black_24dp
 drawable ic_device_thermostat_black_24dp
@@ -2372,6 +2373,7 @@ layout abc_tooltip
 layout activity_home
 layout activity_login
 layout activity_maps
+layout activity_profile_img
 layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2614,6 +2616,14 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string profile
+string profile1
+string profile2
+string profile3
+string profile4
+string profile5
+string profile6
+string profile7
 string profile_bar
 string reg
 string search_menu_title
