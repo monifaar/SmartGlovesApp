@@ -105,7 +105,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] E:\Android 
 	android:roundIcon
 		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:16:9-54
 	android:icon
-		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:14:9-42
 	android:allowBackup
 		ADDED from E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme

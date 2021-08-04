@@ -52,8 +52,8 @@
 34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 34-->[androidx.core:core:1.6.0] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\484149b92a13ecf52e84bfcb35ed7f78\core-1.6.0\AndroidManifest.xml:24:18-86
 35        android:debuggable="true"
-36        android:icon="@mipmap/ic_launcher"
-36-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:14:9-43
+36        android:icon="@drawable/ic_glove"
+36-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:14:9-42
 37        android:label="@string/app_name"
 37-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:15:9-41
 38        android:roundIcon="@mipmap/ic_launcher_round"
