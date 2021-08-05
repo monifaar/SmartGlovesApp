@@ -5,9 +5,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageButton
 import com.garda.smartglovesapp1.R
 
-class ProfileFragment : Fragment() {
+class ProfileFragment : Fragment(), View.OnClickListener {
+
+    lateinit var img_profile: ImageButton
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -17,6 +20,12 @@ class ProfileFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_profile, container, false)
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        img_profile = view.findViewById(R.id.img_profile)
+        img_profile.setOnClickListener(this)
+    }
+
     companion object {
         fun newInstance(): ProfileFragment{
             val fragment = ProfileFragment()
@@ -24,5 +33,9 @@ class ProfileFragment : Fragment() {
             fragment.arguments = args
             return fragment
         }
+    }
+
+    override fun onClick(v: View?) {
+        TODO("Not yet implemented")
     }
 }
