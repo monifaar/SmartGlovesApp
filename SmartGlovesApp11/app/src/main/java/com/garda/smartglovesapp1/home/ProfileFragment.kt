@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageButton
 import com.garda.smartglovesapp1.R
 
-class ProfileFragment : Fragment(), View.OnClickListener {
+class ProfileFragment : Fragment() {
 
     lateinit var img_profile: ImageButton
 
@@ -23,7 +23,10 @@ class ProfileFragment : Fragment(), View.OnClickListener {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         img_profile = view.findViewById(R.id.img_profile)
-        img_profile.setOnClickListener(this)
+        img_profile.setOnClickListener {
+
+
+        }
     }
 
     companion object {
@@ -33,9 +36,5 @@ class ProfileFragment : Fragment(), View.OnClickListener {
             fragment.arguments = args
             return fragment
         }
-    }
-
-    override fun onClick(v: View?) {
-        TODO("Not yet implemented")
     }
 }
