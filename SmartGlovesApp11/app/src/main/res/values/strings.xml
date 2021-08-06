@@ -56,5 +56,7 @@
     <string name="profile5">Security</string>
     <string name="profile6">Help</string>
     <string name="profile7">About</string>
+    <string name="name">Edit name</string>
+    <string name="save">Save Change</string>
 
 </resources>
