@@ -3,6 +3,7 @@ package com.garda.smartglovesapp1.profile
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import com.garda.smartglovesapp1.R
@@ -30,6 +31,28 @@ class ProfileImgActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(binding.root)
 
         binding.buttonSave.setOnClickListener(this)
+
+        userModel = intent.getParcelableExtra<UserModel>("USER") as UserModel
+        val formType = intent.getIntExtra(EXTRA_TYPE_FORM, 0)
+
+        var actionBarTitle = ""
+        var btnTitle = ""
+
+        when (formType) {
+            TYPE_ADD -> {
+                actionBarTitle = "Tambah Baru"
+                btnTitle = "Simpan"
+            }
+            TYPE_EDIT -> {
+                actionBarTitle = "Ubah"
+                btnTitle = "Update"
+                showPreferenceInForm()
+            }
+        }
+    }
+
+    private fun showPreferenceInForm() {
+        binding.edtName.setText(userModel.name)
     }
 
     override fun onClick(v: View?) {
@@ -56,5 +79,12 @@ class ProfileImgActivity : AppCompatActivity(), View.OnClickListener {
         userModel.name = name
         userPreference.setUser(userModel)
         Toast.makeText(this, "Data was saved", Toast.LENGTH_SHORT).show()
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == android.R.id.home) {
+            finish()
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
