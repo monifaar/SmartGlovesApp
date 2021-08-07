@@ -23,7 +23,7 @@
             android:id="@+id/img_profile"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
             android:src="@drawable/ic_user"
             />
 
