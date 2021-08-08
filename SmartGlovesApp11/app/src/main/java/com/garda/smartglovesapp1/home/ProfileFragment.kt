@@ -13,14 +13,14 @@ import com.garda.smartglovesapp1.profile.model.UserPreference
 
 class ProfileFragment : Fragment() {
 
-    lateinit var img_profile: ImageButton
-
-    private lateinit var mUserPreference: UserPreference
-
-    private var isPreferenceEmpty = false
-    private lateinit var userModel: UserModel
-
-    private lateinit var binding: FragmentProfileBinding
+//    lateinit var img_profile: ImageButton
+//
+//    private lateinit var mUserPreference: UserPreference
+//
+//    private var isPreferenceEmpty = false
+//    private lateinit var userModel: UserModel
+//
+//    private lateinit var binding: FragmentProfileBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -37,26 +37,26 @@ class ProfileFragment : Fragment() {
 //
 //
 //        }
-        binding = FragmentProfileBinding.inflate(layoutInflater)
-        binding.root
-
-        mUserPreference = UserPreference(view.context)
-        showExistingPreference()
+//        binding = FragmentProfileBinding.inflate(layoutInflater)
+//        binding.root
+//
+//        mUserPreference = UserPreference(view.context)
+//        showExistingPreference()
     }
 
-    private fun showExistingPreference() {
-        userModel = mUserPreference.getUser()
-        populateView(userModel)
-        checkForm(userModel)
-    }
-
-    private fun checkForm(userModel: UserModel) {
-        TODO("Not yet implemented")
-    }
-
-    private fun populateView(userModel: UserModel) {
-        binding.tvName.text = if (userModel.name.toString().isEmpty()) "Tidak Ada" else userModel.name
-    }
+//    private fun showExistingPreference() {
+//        userModel = mUserPreference.getUser()
+//        populateView(userModel)
+//        checkForm(userModel)
+//    }
+//
+//    private fun checkForm(userModel: UserModel) {
+//        TODO("Not yet implemented")
+//    }
+//
+//    private fun populateView(userModel: UserModel) {
+//        binding.tvName.text = if (userModel.name.toString().isEmpty()) "Tidak Ada" else userModel.name
+//    }
 
     companion object {
         fun newInstance(): ProfileFragment{
