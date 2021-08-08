@@ -106,7 +106,7 @@
             android:layout_height="wrap_content"
             android:elevation="4dp"
             android:layout_gravity="center"
-            android:visibility="visible"
+            android:visibility="gone"
             android:progress="20"/>
     </FrameLayout>
 
