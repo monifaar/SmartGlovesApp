@@ -4,10 +4,8 @@ import android.content.Intent
 import android.graphics.Paint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
-import android.widget.Toast
+import android.view.View
+import android.widget.*
 import com.garda.smartglovesapp1.R
 import com.garda.smartglovesapp1.home.HomeActivity
 import com.garda.smartglovesapp1.login.db.LoginHelper
@@ -43,14 +41,17 @@ class LoginActivity : AppCompatActivity(){
     fun login() {
         val email:String = edtEmail.text.toString()
         val pass:String = edtPassword.text.toString()
+        val prog:ProgressBar = findViewById(R.id.progressBar)
 
         if (email.isNotEmpty() && pass.isNotEmpty() )  {
             try {
                 val login = loginHelper.checkEmailPass(email = email, password = pass)
                 if (login) {
+                    prog.visibility = View.VISIBLE
                     val intent = Intent(this, HomeActivity::class.java)
                     startActivity(intent)
                 }
+                prog.visibility = View.GONE
             }
             catch (e:Exception) {
                 e.printStackTrace()
@@ -58,7 +59,7 @@ class LoginActivity : AppCompatActivity(){
             }
         }
         else {
-            Toast.makeText(this, "Field is not required", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "You must register before", Toast.LENGTH_SHORT).show()
         }
     }
 }
