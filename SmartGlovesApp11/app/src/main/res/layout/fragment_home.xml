@@ -54,7 +54,7 @@
 
             <RelativeLayout
                 android:id="@+id/relativeLayout"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center">
 
@@ -62,7 +62,7 @@
                     android:id="@+id/cv_bpm"
                     android:layout_width="180dp"
                     android:layout_height="180dp"
-                    android:layout_margin="25dp"
+                    android:layout_marginTop="30dp"
                     app:cardCornerRadius="20dp"
                     app:cardBackgroundColor="@color/teal">
 
@@ -95,7 +95,7 @@
                     android:id="@+id/cv_spo2"
                     android:layout_width="150dp"
                     android:layout_height="80dp"
-                    android:layout_marginTop="25dp"
+                    android:layout_marginTop="30dp"
                     android:layout_marginStart="10dp"
                     android:layout_toRightOf="@id/cv_bpm"
                     app:cardCornerRadius="20dp"
@@ -139,7 +139,7 @@
                     android:id="@+id/cv_celcius"
                     android:layout_width="150dp"
                     android:layout_height="80dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="25dp"
                     android:layout_marginStart="10dp"
                     android:layout_toRightOf="@id/cv_bpm"
                     android:layout_below="@id/cv_spo2"
