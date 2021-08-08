@@ -44,20 +44,25 @@ class LoginActivity : AppCompatActivity(){
         val prog:ProgressBar = findViewById(R.id.progressBar)
 
         if (email.isNotEmpty() && pass.isNotEmpty() )  {
+            prog.visibility = View.VISIBLE
             try {
+
                 val login = loginHelper.checkEmailPass(email = email, password = pass)
                 if (login) {
-                    prog.visibility = View.VISIBLE
                     val intent = Intent(this, HomeActivity::class.java)
                     startActivity(intent)
                 }
-                prog.visibility = View.GONE
+
+
             }
+
             catch (e:Exception) {
                 e.printStackTrace()
                 Toast.makeText(this, e.message, Toast.LENGTH_SHORT).show()
             }
         }
+
+
         else {
             Toast.makeText(this, "You must register before", Toast.LENGTH_SHORT).show()
         }
