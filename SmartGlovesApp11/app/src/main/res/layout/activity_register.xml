@@ -11,7 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
 
         <ImageView
             android:id="@+id/ic_glove"
@@ -21,7 +23,7 @@
             android:layout_marginLeft="20dp"
             />
         <TextView
-            android:layout_width="235dp"
+            android:layout_width="wrap_content"
             android:layout_height="38dp"
             android:text="@string/login_name"
             style="@style/fontStyleLogin"
@@ -41,8 +43,10 @@
         android:id="@+id/nameReg"
         android:layout_width="350dp"
         android:layout_height="60dp"
-       android:layout_gravity="center"
+        android:layout_gravity="center"
         android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:padding="20dp"
         android:background="@drawable/outline_login"
         android:hint="@string/nameReg"
@@ -55,6 +59,8 @@
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:padding="20dp"
         android:background="@drawable/outline_login"
         android:hint="@string/email"
@@ -68,6 +74,8 @@
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:padding="20dp"
         android:background="@drawable/outline_login"
         android:hint="@string/pass"
@@ -80,6 +88,8 @@
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:padding="20dp"
         android:background="@drawable/outline_login"
         android:hint="@string/confirm"
@@ -105,6 +115,8 @@
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="20dp"
         android:text="@string/log"
         android:textAllCaps="false"
