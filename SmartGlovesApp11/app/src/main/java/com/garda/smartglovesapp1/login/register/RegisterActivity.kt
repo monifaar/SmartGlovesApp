@@ -3,10 +3,8 @@ package com.garda.smartglovesapp1.login.register
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
-import android.widget.Toast
+import android.view.View
+import android.widget.*
 import com.garda.smartglovesapp1.R
 import com.garda.smartglovesapp1.login.LoginActivity
 import com.garda.smartglovesapp1.login.db.LoginModel
@@ -49,9 +47,11 @@ class RegisterActivity : AppCompatActivity() {
         val email:String = edtEmail.text.toString()
         val pass:String = edtPass.text.toString()
         val confirm:String = edtConfirm.text.toString()
+        val prog: ProgressBar = findViewById(R.id.progressBar)
 
         if (name.isNotEmpty() && email.isNotEmpty() && pass.isNotEmpty() && confirm.isNotEmpty())  {
             if(pass == confirm){
+                prog.visibility = View.VISIBLE
                 try {
 
                         if (!registerHelper.checkEmailPass(email, pass)) {
