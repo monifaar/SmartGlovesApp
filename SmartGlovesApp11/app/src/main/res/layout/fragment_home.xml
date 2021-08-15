@@ -16,12 +16,13 @@
         android:id="@+id/parentRelative"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp">
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_profile"
             android:layout_width="80dp"
-            android:layout_marginLeft="25dp"
             android:layout_height="80dp"
             android:src="@drawable/ic_user"
             />
@@ -45,6 +46,15 @@
             style="@style/fontStyleStatus"
             android:text="@string/status"
             android:layout_below="@id/name_txt"/>
+
+        <ImageButton
+            android:id="@+id/butut_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_bluetooth"/>
 
         <FrameLayout
             android:id="@+id/frameLayout"
