@@ -58,5 +58,6 @@
     <string name="profile7">About</string>
     <string name="name">Edit name</string>
     <string name="save">Save Change</string>
+    <string name="change">Change</string>
 
 </resources>
