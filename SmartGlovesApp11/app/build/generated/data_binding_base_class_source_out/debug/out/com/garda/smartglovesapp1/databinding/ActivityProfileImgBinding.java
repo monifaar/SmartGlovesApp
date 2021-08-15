@@ -4,25 +4,37 @@ package com.garda.smartglovesapp1.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.garda.smartglovesapp1.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityProfileImgBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
-  private ActivityProfileImgBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final Button buttonSave;
+
+  @NonNull
+  public final EditText edtName;
+
+  private ActivityProfileImgBinding(@NonNull LinearLayout rootView, @NonNull Button buttonSave,
+      @NonNull EditText edtName) {
     this.rootView = rootView;
+    this.buttonSave = buttonSave;
+    this.edtName = edtName;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +55,25 @@ public final class ActivityProfileImgBinding implements ViewBinding {
 
   @NonNull
   public static ActivityProfileImgBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.button_save;
+      Button buttonSave = rootView.findViewById(id);
+      if (buttonSave == null) {
+        break missingId;
+      }
 
-    return new ActivityProfileImgBinding((ConstraintLayout) rootView);
+      id = R.id.edt_name;
+      EditText edtName = rootView.findViewById(id);
+      if (edtName == null) {
+        break missingId;
+      }
+
+      return new ActivityProfileImgBinding((LinearLayout) rootView, buttonSave, edtName);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

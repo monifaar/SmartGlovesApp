@@ -76,6 +76,10 @@
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_user.xml"
     },
     {
+        "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable_outline_profile.xml.flat",
+        "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\drawable\\outline_profile.xml"
+    },
+    {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
@@ -120,6 +124,10 @@
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\drawable\\ic_outline_location_on_24.xml"
     },
     {
+        "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit_black_24dp.xml.flat",
+        "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\drawable\\ic_edit_black_24dp.xml"
+    },
+    {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_user.png.flat",
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_add_user.png"
     },
@@ -130,6 +138,10 @@
     {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable_outline_login.xml.flat",
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\drawable\\outline_login.xml"
+    },
+    {
+        "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_battery.xml.flat",
+        "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\drawable\\ic_battery.xml"
     },
     {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\menu_navigation_buttom.xml.flat",

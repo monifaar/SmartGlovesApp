@@ -35,8 +35,8 @@
                           <map>
                             <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="30515f" />
-                            <entry key="outputName" value="ic_edit_black_24dp" />
-                            <entry key="sourceFile" value="D:\project andro\1 Smart Gloves\edit_black_24dp.svg" />
+                            <entry key="outputName" value="ic_bluetooth" />
+                            <entry key="sourceFile" value="D:\project andro\1 Smart Gloves\bluetooth.svg" />
                           </map>
                         </option>
                       </PersistentState>

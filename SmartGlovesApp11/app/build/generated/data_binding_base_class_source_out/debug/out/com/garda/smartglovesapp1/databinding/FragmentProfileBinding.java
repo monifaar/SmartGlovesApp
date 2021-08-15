@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -25,22 +26,26 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final CardView cvBpm;
 
   @NonNull
-  public final CircleImageView imgProfile;
+  public final ImageButton imgBtn;
 
   @NonNull
-  public final TextView nameTxt;
+  public final CircleImageView imgProfile;
 
   @NonNull
   public final RelativeLayout parentRelative;
 
+  @NonNull
+  public final TextView tvName;
+
   private FragmentProfileBinding(@NonNull FrameLayout rootView, @NonNull CardView cvBpm,
-      @NonNull CircleImageView imgProfile, @NonNull TextView nameTxt,
-      @NonNull RelativeLayout parentRelative) {
+      @NonNull ImageButton imgBtn, @NonNull CircleImageView imgProfile,
+      @NonNull RelativeLayout parentRelative, @NonNull TextView tvName) {
     this.rootView = rootView;
     this.cvBpm = cvBpm;
+    this.imgBtn = imgBtn;
     this.imgProfile = imgProfile;
-    this.nameTxt = nameTxt;
     this.parentRelative = parentRelative;
+    this.tvName = tvName;
   }
 
   @Override
@@ -76,15 +81,15 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.img_profile;
-      CircleImageView imgProfile = rootView.findViewById(id);
-      if (imgProfile == null) {
+      id = R.id.img_btn;
+      ImageButton imgBtn = rootView.findViewById(id);
+      if (imgBtn == null) {
         break missingId;
       }
 
-      id = R.id.name_txt;
-      TextView nameTxt = rootView.findViewById(id);
-      if (nameTxt == null) {
+      id = R.id.img_profile;
+      CircleImageView imgProfile = rootView.findViewById(id);
+      if (imgProfile == null) {
         break missingId;
       }
 
@@ -94,8 +99,14 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((FrameLayout) rootView, cvBpm, imgProfile, nameTxt,
-          parentRelative);
+      id = R.id.tv_name;
+      TextView tvName = rootView.findViewById(id);
+      if (tvName == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((FrameLayout) rootView, cvBpm, imgBtn, imgProfile,
+          parentRelative, tvName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

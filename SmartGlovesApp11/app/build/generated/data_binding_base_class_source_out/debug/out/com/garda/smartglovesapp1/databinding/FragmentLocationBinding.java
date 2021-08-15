@@ -22,6 +22,9 @@ public final class FragmentLocationBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final TextView connect;
+
+  @NonNull
   public final FrameLayout frame;
 
   @NonNull
@@ -36,10 +39,11 @@ public final class FragmentLocationBinding implements ViewBinding {
   @NonNull
   public final RelativeLayout parentRelative;
 
-  private FragmentLocationBinding(@NonNull FrameLayout rootView, @NonNull FrameLayout frame,
-      @NonNull CircleImageView imgProfile, @NonNull MapView mapView, @NonNull TextView nameTxt,
-      @NonNull RelativeLayout parentRelative) {
+  private FragmentLocationBinding(@NonNull FrameLayout rootView, @NonNull TextView connect,
+      @NonNull FrameLayout frame, @NonNull CircleImageView imgProfile, @NonNull MapView mapView,
+      @NonNull TextView nameTxt, @NonNull RelativeLayout parentRelative) {
     this.rootView = rootView;
+    this.connect = connect;
     this.frame = frame;
     this.imgProfile = imgProfile;
     this.mapView = mapView;
@@ -74,6 +78,12 @@ public final class FragmentLocationBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.connect;
+      TextView connect = rootView.findViewById(id);
+      if (connect == null) {
+        break missingId;
+      }
+
       FrameLayout frame = (FrameLayout) rootView;
 
       id = R.id.img_profile;
@@ -100,8 +110,8 @@ public final class FragmentLocationBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentLocationBinding((FrameLayout) rootView, frame, imgProfile, mapView,
-          nameTxt, parentRelative);
+      return new FragmentLocationBinding((FrameLayout) rootView, connect, frame, imgProfile,
+          mapView, nameTxt, parentRelative);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
