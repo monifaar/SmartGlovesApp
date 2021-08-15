@@ -33,27 +33,27 @@ class ProfileImgActivity : AppCompatActivity(), View.OnClickListener {
         binding.buttonSave.setOnClickListener(this)
 
         userModel = intent.getParcelableExtra<UserModel>("USER") as UserModel
-        val formType = intent.getIntExtra(EXTRA_TYPE_FORM, 0)
-
-        var actionBarTitle = ""
-        var btnTitle = ""
-
-        when (formType) {
-            TYPE_ADD -> {
-                actionBarTitle = "Tambah Baru"
-                btnTitle = "Simpan"
-            }
-            TYPE_EDIT -> {
-                actionBarTitle = "Ubah"
-                btnTitle = "Update"
-                showPreferenceInForm()
-            }
-        }
+//        val formType = intent.getIntExtra(EXTRA_TYPE_FORM, 0)
+//
+//        var actionBarTitle = ""
+//        var btnTitle = ""
+//
+//        when (formType) {
+//            TYPE_ADD -> {
+//                actionBarTitle = "Tambah Baru"
+//                btnTitle = "Simpan"
+//            }
+//            TYPE_EDIT -> {
+//                actionBarTitle = "Ubah"
+//                btnTitle = "Update"
+//                showPreferenceInForm()
+//            }
+//        }
     }
 
-    private fun showPreferenceInForm() {
-        binding.edtName.setText(userModel.name)
-    }
+//    private fun showPreferenceInForm() {
+//        binding.edtName.setText(userModel.name)
+//    }
 
     override fun onClick(v: View?) {
         if (v?.id == R.id.button_save) {
@@ -87,4 +87,6 @@ class ProfileImgActivity : AppCompatActivity(), View.OnClickListener {
         }
         return super.onOptionsItemSelected(item)
     }
+
+
 }
