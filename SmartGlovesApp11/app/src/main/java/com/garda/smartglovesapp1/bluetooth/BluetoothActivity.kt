@@ -49,6 +49,19 @@ class BluetoothActivity : AppCompatActivity(){
         mOnBtn2.setOnClickListener {
 
         }
+
+        val mOffBtn2:Button = findViewById(R.id.offBtn)
+        mOffBtn2.setOnClickListener {
+            fun onClick(v: View?) {
+                if (mBlueAdapter.isEnabled()) {
+                    mBlueAdapter.disable()
+                    showToast("Turning Bluetooth Off")
+                    mBlueIv.setImageResource(R.drawable.ic_action_off)
+                } else {
+                    showToast("Bluetooth is already off")
+                }
+            }
+        }
         }
 
 }
