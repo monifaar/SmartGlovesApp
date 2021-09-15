@@ -60,6 +60,10 @@
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\layout\\activity_profile_img.xml"
     },
     {
+        "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bluetooth.xml.flat",
+        "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\layout\\activity_bluetooth.xml"
+    },
+    {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_user.png.flat",
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_user.png"
     },
@@ -190,6 +194,10 @@
     {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable_solid_login.xml.flat",
         "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\drawable\\solid_login.xml"
+    },
+    {
+        "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bluetooth.xml.flat",
+        "source": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\src\\main\\res\\drawable\\ic_bluetooth.xml"
     },
     {
         "merged": "E:\\project android\\git app project\\SmartGlovesApp\\SmartGlovesApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_add_user.xml.flat",

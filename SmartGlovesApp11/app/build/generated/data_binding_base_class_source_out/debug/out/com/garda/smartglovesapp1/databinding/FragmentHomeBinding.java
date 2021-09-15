@@ -4,7 +4,9 @@ package com.garda.smartglovesapp1.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -20,6 +22,9 @@ import java.lang.String;
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
+
+  @NonNull
+  public final ImageButton bututBtn;
 
   @NonNull
   public final CardView cvBpm;
@@ -43,6 +48,9 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final RelativeLayout parentRelative;
 
   @NonNull
+  public final Button refreshSensor;
+
+  @NonNull
   public final RelativeLayout relativeLayout;
 
   @NonNull
@@ -60,13 +68,15 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final TextView txtSuhu2;
 
-  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull CardView cvBpm,
-      @NonNull CardView cvCelcius, @NonNull CardView cvSpo2, @NonNull FrameLayout frameLayout,
-      @NonNull CircleImageView imgProfile, @NonNull TextView nameTxt,
-      @NonNull RelativeLayout parentRelative, @NonNull RelativeLayout relativeLayout,
+  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull ImageButton bututBtn,
+      @NonNull CardView cvBpm, @NonNull CardView cvCelcius, @NonNull CardView cvSpo2,
+      @NonNull FrameLayout frameLayout, @NonNull CircleImageView imgProfile,
+      @NonNull TextView nameTxt, @NonNull RelativeLayout parentRelative,
+      @NonNull Button refreshSensor, @NonNull RelativeLayout relativeLayout,
       @NonNull TextView txtBpm, @NonNull TextView txtSpo2, @NonNull TextView txtSpo22,
       @NonNull TextView txtSuhu, @NonNull TextView txtSuhu2) {
     this.rootView = rootView;
+    this.bututBtn = bututBtn;
     this.cvBpm = cvBpm;
     this.cvCelcius = cvCelcius;
     this.cvSpo2 = cvSpo2;
@@ -74,6 +84,7 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.imgProfile = imgProfile;
     this.nameTxt = nameTxt;
     this.parentRelative = parentRelative;
+    this.refreshSensor = refreshSensor;
     this.relativeLayout = relativeLayout;
     this.txtBpm = txtBpm;
     this.txtSpo2 = txtSpo2;
@@ -109,6 +120,12 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.butut_btn;
+      ImageButton bututBtn = rootView.findViewById(id);
+      if (bututBtn == null) {
+        break missingId;
+      }
+
       id = R.id.cv_bpm;
       CardView cvBpm = rootView.findViewById(id);
       if (cvBpm == null) {
@@ -151,6 +168,12 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.refreshSensor;
+      Button refreshSensor = rootView.findViewById(id);
+      if (refreshSensor == null) {
+        break missingId;
+      }
+
       id = R.id.relativeLayout;
       RelativeLayout relativeLayout = rootView.findViewById(id);
       if (relativeLayout == null) {
@@ -187,9 +210,9 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((FrameLayout) rootView, cvBpm, cvCelcius, cvSpo2, frameLayout,
-          imgProfile, nameTxt, parentRelative, relativeLayout, txtBpm, txtSpo2, txtSpo22, txtSuhu,
-          txtSuhu2);
+      return new FragmentHomeBinding((FrameLayout) rootView, bututBtn, cvBpm, cvCelcius, cvSpo2,
+          frameLayout, imgProfile, nameTxt, parentRelative, refreshSensor, relativeLayout, txtBpm,
+          txtSpo2, txtSpo22, txtSuhu, txtSuhu2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

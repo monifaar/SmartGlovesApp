@@ -1775,6 +1775,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_add_user
 drawable ic_battery
+drawable ic_bluetooth
 drawable ic_circle_black_24dp
 drawable ic_clock_black_24dp
 drawable ic_device_thermostat_black_24dp
@@ -1930,8 +1931,8 @@ id bounce
 id btn_reg
 id buttonPanel
 id button_reg
-id button_save
 id button_signin
+id butut_btn
 id cache_measures
 id cancel_action
 id cancel_button
@@ -2002,7 +2003,6 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
-id edt_name
 id elastic
 id email
 id emailReg
@@ -2171,6 +2171,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id refreshSensor
 id relativeLayout
 id reverseSawtooth
 id right
@@ -2378,6 +2379,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_bluetooth
 layout activity_home
 layout activity_login
 layout activity_maps

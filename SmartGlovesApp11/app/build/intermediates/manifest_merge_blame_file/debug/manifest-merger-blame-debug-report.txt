@@ -21,13 +21,13 @@
 16-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:10:5-81
 16-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:10:22-78
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-17-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:11:5-79
+17-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:11:5-80
 17-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:11:22-77
 18    <uses-permission android:name="android.permission.BLUETOOTH" />
-18-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:12:5-67
+18-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:12:5-68
 18-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:12:22-65
 19    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-19-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:13:5-73
+19-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:13:5-74
 19-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:13:22-71
 20
 21    <!-- Include required permissions for Google Maps API to run. -->
@@ -55,7 +55,7 @@
 33    </queries>
 34
 35    <application
-35-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:15:5-47:19
+35-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:15:5-48:19
 36        android:allowBackup="true"
 36-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:16:9-35
 37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -69,15 +69,17 @@
 41-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:19:9-54
 42        android:supportsRtl="true"
 42-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:20:9-35
-43        android:testOnly="true"
-44        android:theme="@style/Theme.SmartGlovesApp1" >
-44-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:21:9-53
+43        android:theme="@style/Theme.SmartGlovesApp1" >
+43-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:21:9-53
+44        <activity android:name="com.garda.smartglovesapp1.bluetooth.BluetoothActivity" />
+44-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:22:9-74
+44-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:22:19-62
 45        <activity android:name="com.garda.smartglovesapp1.profile.ProfileImgActivity" />
-45-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:22:9-73
-45-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:22:19-61
+45-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:23:9-64
+45-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:23:19-61
 46        <activity android:name="com.garda.smartglovesapp1.login.register.RegisterActivity" />
-46-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:23:9-69
-46-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:23:19-66
+46-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:24:9-69
+46-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:24:19-66
 47        <!--
 48             The API key for Google Maps-based APIs is defined as a string resource.
 49             (See the file "res/values/google_maps_api.xml").
@@ -87,35 +89,35 @@
 53             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 54        -->
 55        <meta-data
-55-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:32:9-34:55
+55-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:33:9-35:55
 56            android:name="com.google.android.geo.API_KEY"
-56-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:33:13-58
+56-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:34:13-58
 57            android:value="@string/google_maps_key" />
-57-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:34:13-52
+57-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:35:13-52
 58
 59        <activity
-59-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:36:9-38:59
+59-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:37:9-39:59
 60            android:name="com.garda.smartglovesapp1.MapsActivity"
-60-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:37:13-41
+60-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:38:13-41
 61            android:label="@string/title_activity_maps" />
-61-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:38:13-56
+61-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:39:13-56
 62        <activity android:name="com.garda.smartglovesapp1.login.LoginActivity" >
-62-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:39:9-45:20
-62-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:39:19-54
+62-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:40:9-46:20
+62-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:40:19-54
 63            <intent-filter>
-63-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:40:13-44:29
+63-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:41:13-45:29
 64                <action android:name="android.intent.action.MAIN" />
-64-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:41:17-69
-64-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:41:25-66
+64-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:42:17-69
+64-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:42:25-66
 65
 66                <category android:name="android.intent.category.LAUNCHER" />
-66-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:43:17-77
-66-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:43:27-74
+66-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:44:17-77
+66-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:44:27-74
 67            </intent-filter>
 68        </activity>
 69        <activity android:name="com.garda.smartglovesapp1.home.HomeActivity" />
-69-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:46:9-55
-69-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:46:19-52
+69-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:47:9-55
+69-->E:\project android\git app project\SmartGlovesApp\SmartGlovesApp11\app\src\main\AndroidManifest.xml:47:19-52
 70        <!-- Needs to be explicitly declared on P+ -->
 71        <uses-library
 71-->[com.google.android.gms:play-services-maps:17.0.1] E:\Android Developer\UserGithub\caches\transforms-2\files-2.1\ea97a4d00c26cb6a9b2b3a2539062156\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40

@@ -7,7 +7,7 @@ class LoginHelper(context: Context){
     private var dataBaseHelper: DatabaseHelper = DatabaseHelper(context)
 
     fun checkEmailPass(email:String, password:String):Boolean {
-//        val projecton = arrayOf(DatabaseContract.FeedLogin._ID, DatabaseContract.FeedLogin.COLUMN_NAME_EMAIL, DatabaseContract.FeedLogin.COLUMN_NAME_PASSWORD)
+
 
         val db = dataBaseHelper.readableDatabase
         val query:String = "select * from login where email = ? and password = ?"

@@ -210,12 +210,14 @@
             android:text="@string/graph"
             style="@style/fontStyleOption"/>
 
-        <TextView
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/refreshSensor"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
             android:layout_marginTop="15dp"
             android:text="@string/graph1"
+            android:textAllCaps="false"
             style="@style/fontStyleOptionSelect"
             />
 

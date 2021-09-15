@@ -40,8 +40,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.SmartGlovesApp1" >
+        <activity android:name="com.garda.smartglovesapp1.bluetooth.BluetoothActivity" />
         <activity android:name="com.garda.smartglovesapp1.profile.ProfileImgActivity" />
         <activity android:name="com.garda.smartglovesapp1.login.register.RegisterActivity" />
         <!--
